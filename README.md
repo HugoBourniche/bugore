@@ -52,3 +52,18 @@ export default tseslint.config({
   },
 })
 ```
+
+## React Commands
+
+### Generate component
+
+```bash
+npx generate-react-cli component ComponentName
+```
+
+
+## General React Knowlege
+
+### Naming conventions
+
+- Component must start with a capital letter
