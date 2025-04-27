@@ -1,0 +1,26 @@
+@import './variables.less';
+
+:root {
+  font-family: @font-family; // Police d'écriture
+  line-height: @line-height; // Hauteur des lignes de texte
+  font-weight: @font-weight; // Épaisseur de la police - 400 par défaut
+  color-scheme: @color-scheme; // Indique au navigateur les schémas de couleurs préférés (dark | light)
+  color: @color; // Couleur du texte
+  background-color: @background-color; // Couleur du fond
+  font-synthesis: @font-synthesis; // Autorisation au navigateur à synthétiser les graisses ou les styles de polices manquantes
+  text-rendering: @text-rendering; // Contrôle le rendu du texte
+  -webkit-font-smoothing: @webkit-font-smoothing; // Contrôle le lissage des polices sur Safari
+  -moz-osx-font-smoothing: @moz-osx-font-smoothing; // Contrôle le lissage de polices sur Mozilla
+}
+
+// Margins
+
+.mx-1 {
+  margin-left: @margin-1;
+}
+
+// Text justification
+
+.text-center {
+  text-align: center;
+}
