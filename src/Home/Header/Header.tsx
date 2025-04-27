@@ -45,7 +45,7 @@ const Header: FC<HeaderProps> = ({title}) => {
 
     return (
         <div className="Header">
-            <h1 className="title">
+            <h1 className="title text-center">
                 {title}
             </h1>
         </div>
