@@ -1,4 +1,21 @@
-@font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+// Custom fonts
+
+@font-face {
+  font-family: @font-family-draw;
+  src: url("../fonts/drawing-set.otf");
+}
+
+@font-face {
+  font-family: @font-family-wednesday;
+  src: url("../fonts/wednesday.ttf");
+}
+
+// Font params
+
+@font-family-draw: draw;
+@font-family-wednesday: wednesday;
+@font-family: @font-family-wednesday, system-ui, Avenir, Helvetica, Arial, sans-serif;
 @line-height: 1.5;
 @font-weight: 400;
 @font-synthesis: none;
@@ -7,6 +24,7 @@
 @moz-osx-font-smoothing: grayscale;
 
 @font-size-title-header: 8em;
+@font-size-text: 1.5em;
 
 // Margins
 
