@@ -11,6 +11,7 @@
   src: url("../fonts/wednesday.ttf");
 }
 
+@phone-width: 480px;
 // Font params
 
 @font-family-draw: draw;
@@ -24,7 +25,9 @@
 @moz-osx-font-smoothing: grayscale;
 
 @font-size-title-header: 8em;
+@font-size-title-header-phone: 5em;
 @font-size-text: 1.5em;
+@font-size-text-phone: 1em;
 
 // Margins
 
@@ -42,10 +45,19 @@
 @color-title-gradient-1: #622774;
 @color-title-gradient-2: #c53364;
 
+@color-title-gradient-1-light: #FCE38A;
+@color-title-gradient-2-light: #F38181;
+
 @gradient: -webkit-linear-gradient(
   90deg,
   @color-title-gradient-1,
   @color-title-gradient-2
+);
+
+@gradient-light: -webkit-linear-gradient(
+        90deg,
+        @color-title-gradient-1-light,
+        @color-title-gradient-2-light
 );
 
 @media (prefers-color-scheme: light) {

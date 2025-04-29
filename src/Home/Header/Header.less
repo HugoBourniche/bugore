@@ -10,3 +10,21 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+// Light version
+
+@media (prefers-color-scheme: light) {
+  .title {
+    background: @gradient-light;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+// Phone version
+
+@media ( max-device-width: @phone-width) {
+  .title {
+    font-size: @font-size-title-header-phone;
+  }
+}
