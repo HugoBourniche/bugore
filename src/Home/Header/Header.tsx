@@ -1,4 +1,4 @@
-import React, { FC, useEffect } from 'react';
+import { FC, useEffect } from 'react';
 import './Header.less';
 interface HeaderProps {
   title: string;

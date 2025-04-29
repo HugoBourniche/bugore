@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import './Home.less';
 import Header from './Header/Header.tsx';
 import Content from './Content/Content.tsx';
