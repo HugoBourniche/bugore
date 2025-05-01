@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import './Content.less';
+import { FC } from 'react';
+import './Content.module.less';
 
 interface ContentProps {}
 

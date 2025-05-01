@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import './Home.less';
+import { FC } from 'react';
+import './Home.module.less';
 import Header from './Header/Header.tsx';
 import Content from './Content/Content.tsx';
 

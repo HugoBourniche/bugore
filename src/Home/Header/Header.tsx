@@ -1,5 +1,5 @@
-import React, { FC, useEffect } from 'react';
-import './Header.less';
+import { FC, useEffect } from 'react';
+import './Header.module.less';
 interface HeaderProps {
   title: string;
 }
