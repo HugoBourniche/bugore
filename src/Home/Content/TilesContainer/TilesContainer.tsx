@@ -5,10 +5,8 @@ interface TuilesContainerProps {
   title: string;
 }
 
-const TilesContainer: FC<TuilesContainerProps> = () => (
-  <div className={styles.TilesContainer}>
-    TilesContainer Component
-  </div>
-);
+const TilesContainer: FC<TuilesContainerProps> = ({ title }) => {
+  return <div className={styles.TilesContainer}>{title}</div>;
+};
 
 export default TilesContainer;

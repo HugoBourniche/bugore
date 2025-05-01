@@ -8,7 +8,7 @@ const Header: FC<HeaderProps> = ({ title }) => {
   useEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {
       const gradientText = document.querySelector(
-        "." + styles.title,
+        '.' + styles.title,
       ) as HTMLElement | null;
       if (!gradientText) {
         console.error('.title does not exists');
@@ -47,7 +47,7 @@ const Header: FC<HeaderProps> = ({ title }) => {
 
   return (
     <div className={styles.Header}>
-      <h1 className={styles.title + " text-center"}>{title}</h1>
+      <h1 className={styles.title + ' text-center'}>{title}</h1>
     </div>
   );
 };

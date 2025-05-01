@@ -1,7 +1,6 @@
-import { ATile } from "./a-tile";
+import { ATile } from './a-tile';
 
 export class VideoTile extends ATile {
-
   // *****************************************************************************************************************
   // ATTRIBUTES
   // *****************************************************************************************************************
@@ -28,5 +27,4 @@ export class VideoTile extends ATile {
   set publicationDate(value: string) {
     this._publicationDate = value;
   }
-
 }

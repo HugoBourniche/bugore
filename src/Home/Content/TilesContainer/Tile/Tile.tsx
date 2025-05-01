@@ -4,9 +4,7 @@ import styles from './Tile.module.less';
 interface TileProps {}
 
 const Tile: FC<TileProps> = () => (
-  <div className={styles.Tile}>
-    Tile Component
-  </div>
+  <div className={styles.Tile}>Tile Component</div>
 );
 
 export default Tile;

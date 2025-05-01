@@ -1,23 +1,23 @@
 {
-  "games": [
+  "gameTiles": [
     {
       "title": "Spacetrip",
       "state": "Broken",
       "version": "1.0.0",
       "link": "https://spacetrip.bugo.re",
-      "last-update": "2019/12"
+      "lastUpdate": "2019/12"
     }
   ],
-  "videos": [
+  "videoTiles": [
     {
       "title": "Hoxalik joue à Fallout Brotherhood of steel",
       "link": "https://www.youtube.com/watch?v=n_riOBBumpY&pp=0gcJCYQJAYcqIYzv",
-      "date": "2018/11/05"
+      "publicationDate": "2018/11/05"
     },
     {
       "title": " EN HURLANT SMASH !!! CA MARCHE MIEUX // super smash bros ultimate",
       "link": "https://www.youtube.com/watch?v=ZF6-2OkklPU",
-      "date": "2019/02/13"
+      "publicationDate": "2019/02/13"
     }
   ]
 }

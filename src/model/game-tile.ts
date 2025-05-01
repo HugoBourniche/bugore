@@ -1,4 +1,4 @@
-import { ATile } from "./a-tile";
+import { ATile } from './a-tile';
 
 export class GameTile extends ATile {
   // *****************************************************************************************************************
@@ -13,7 +13,13 @@ export class GameTile extends ATile {
   // CONSTRUCTOR
   // *****************************************************************************************************************
 
-  constructor(title: string, link: string, state: string, version: string, lastUpdate: string) {
+  constructor(
+    title: string,
+    link: string,
+    state: string,
+    version: string,
+    lastUpdate: string,
+  ) {
     super(title, link);
     this._state = state;
     this._version = version;
@@ -23,7 +29,6 @@ export class GameTile extends ATile {
   // *****************************************************************************************************************
   // GETTER / SETTER
   // *****************************************************************************************************************
-
 
   get state(): string {
     return this._state;
