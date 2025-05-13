@@ -11,6 +11,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.0",
     "generate-react-cli": "^8.4.9",
     "less": "^4.3.0",
     "less-loader": "^12.2.0",

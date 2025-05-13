@@ -11,8 +11,8 @@ const template = (tiles: TilesJsonObject | null) => (
     <div className={`${styles.Content} text-size-m text-center`}>
       Site en cours de construction
     </div>
-    {tiles && tiles.gameTiles && <TilesContainer title={'Jeux'} />}
-    {tiles && tiles.videoTiles && <TilesContainer title={'Videos'} />}
+    {tiles && tiles.gameTiles && <TilesContainer title={'Jeux'} content={tiles.gameTiles} />}
+    {tiles && tiles.videoTiles && <TilesContainer title={'Videos'} content={tiles.videoTiles} />}
   </>
 );
 
