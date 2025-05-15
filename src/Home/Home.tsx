@@ -1,12 +1,12 @@
-import React, { FC } from 'react';
-import './Home.less';
+import { FC } from 'react';
+import styles from './Home.module.less';
 import Header from './Header/Header.tsx';
 import Content from './Content/Content.tsx';
 
 interface HomeProps {}
 
 const Home: FC<HomeProps> = () => (
-  <div className="Home">
+  <div className={styles.Home}>
     <Header title="Bugo.re" />
     <Content />
   </div>

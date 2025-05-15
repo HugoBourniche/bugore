@@ -1,0 +1,38 @@
+{
+  "gameTiles": [
+    {
+      "title": "Spacetrip",
+      "state": "Broken",
+      "version": "1.0.0",
+      "link": "https://spacetrip.bugo.re",
+      "img": "images/tile_thumbnail_spacetrip.png",
+      "lastUpdate": "2019/12"
+    }
+  ],
+  "videoTiles": [
+    {
+      "title": "Hoxalik joue à Fallout Brotherhood of steel",
+      "link": "https://www.youtube.com/watch?v=n_riOBBumpY",
+      "img": "https://img.youtube.com/vi/n_riOBBumpY/maxresdefault.jpg",
+      "publicationDate": "2018/11/05"
+    },
+    {
+      "title": " EN HURLANT SMASH !!! CA MARCHE MIEUX // super smash bros ultimate",
+      "link": "https://www.youtube.com/watch?v=ZF6-2OkklPU",
+      "img": "https://img.youtube.com/vi/ZF6-2OkklPU/maxresdefault.jpg",
+      "publicationDate": "2019/02/13"
+    },
+    {
+      "title": "Betty La Bomba (͠≖ ͜ʖ͠≖) - Paladingz chez Maurice #1",
+      "link": "https://www.youtube.com/watch?v=igvsl6_MiBM",
+      "img": "https://img.youtube.com/vi/igvsl6_MiBM/maxresdefault.jpg",
+      "publicationDate": "2023/03/26"
+    },
+    {
+      "title": "La carte la carte - Maurice évite la pluie - #1",
+      "link": "https://www.youtube.com/watch?v=Eh0GPQ7_1gA",
+      "img": "https://img.youtube.com/vi/Eh0GPQ7_1gA/hqdefault.jpg",
+      "publicationDate": "2023/03/26"
+    }
+  ]
+}

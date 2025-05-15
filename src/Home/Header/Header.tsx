@@ -1,5 +1,5 @@
-import React, { FC, useEffect } from 'react';
-import './Header.less';
+import { FC, useEffect } from 'react';
+import styles from './Header.module.less';
 interface HeaderProps {
   title: string;
 }
@@ -8,7 +8,7 @@ const Header: FC<HeaderProps> = ({ title }) => {
   useEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {
       const gradientText = document.querySelector(
-        '.title',
+        '.' + styles.title,
       ) as HTMLElement | null;
       if (!gradientText) {
         console.error('.title does not exists');
@@ -46,8 +46,8 @@ const Header: FC<HeaderProps> = ({ title }) => {
   }, []);
 
   return (
-    <div className="Header">
-      <h1 className="title text-center">{title}</h1>
+    <div className={styles.Header}>
+      <h1 className={styles.title + ' text-center'}>{title}</h1>
     </div>
   );
 };
