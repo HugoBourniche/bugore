@@ -23,6 +23,7 @@ export class ReadJsonUtils {
         new GameTile(
           jsonObject['title'],
           jsonObject['link'],
+          jsonObject['img'],
           jsonObject['state'],
           jsonObject['version'],
           jsonObject['lastUpdate'],
@@ -39,6 +40,7 @@ export class ReadJsonUtils {
         new VideoTile(
           jsonObject['title'],
           jsonObject['link'],
+          jsonObject['img'],
           jsonObject['publicationDate'],
         ),
       );

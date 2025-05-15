@@ -5,14 +5,16 @@ export abstract class ATile {
 
   private _title: string;
   private _link: string;
+  private _img: string;
 
   // *****************************************************************************************************************
   // CONSTRUCTOR
   // *****************************************************************************************************************
 
-  constructor(title: string, link: string) {
+  constructor(title: string, link: string, img: string) {
     this._title = title;
     this._link = link;
+    this._img = img;
   }
 
   // *****************************************************************************************************************
@@ -33,5 +35,13 @@ export abstract class ATile {
 
   set link(value: string) {
     this._link = value;
+  }
+
+  get img(): string {
+    return this._img;
+  }
+
+  set img(value: string) {
+    this._img = value;
   }
 }

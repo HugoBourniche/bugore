@@ -11,8 +11,13 @@ export class VideoTile extends ATile {
   // CONSTRUCTOR
   // *****************************************************************************************************************
 
-  constructor(title: string, link: string, publicationDate: string) {
-    super(title, link);
+  constructor(
+    title: string,
+    link: string,
+    img: string,
+    publicationDate: string,
+  ) {
+    super(title, link, img);
     this._publicationDate = publicationDate;
   }
 

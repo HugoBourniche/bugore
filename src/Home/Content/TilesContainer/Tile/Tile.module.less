@@ -2,5 +2,12 @@
 
 .Tile {
   margin: @margin-1;
-  padding: @padding-1;
+  padding: @padding-05;
+  background-color: @tile-background-color;
+}
+
+@media (prefers-color-scheme: light) {
+  .Tile {
+    background-color: @tile-background-color-light;
+  }
 }

@@ -9,12 +9,16 @@ interface TuilesContainerProps {
 }
 
 const TilesContainer: FC<TuilesContainerProps> = ({ title, content }) => {
-  return <>
-    <h2 className={styles.Title}>{title}</h2>
-    <div className={styles.TilesContainer}>
-      {content.map((tile) => <Tile tile={tile}></Tile>)}
-    </div>
-  </>;
+  return (
+    <>
+      <h2 className={styles.Title}>{title}</h2>
+      <div className={styles.TilesContainer}>
+        {content.map((tile) => (
+          <Tile tile={tile}></Tile>
+        ))}
+      </div>
+    </>
+  );
 };
 
 export default TilesContainer;

@@ -16,11 +16,12 @@ export class GameTile extends ATile {
   constructor(
     title: string,
     link: string,
+    img: string,
     state: string,
     version: string,
     lastUpdate: string,
   ) {
-    super(title, link);
+    super(title, link, img);
     this._state = state;
     this._version = version;
     this._lastUpdate = lastUpdate;

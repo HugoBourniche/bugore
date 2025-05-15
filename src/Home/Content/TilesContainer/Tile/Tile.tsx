@@ -1,18 +1,27 @@
 import { FC } from 'react';
 import styles from './Tile.module.less';
-import {ATile} from "../../../../model/a-tile.ts";
+import { ATile } from '../../../../model/a-tile.ts';
 import Card from '@mui/material/Card';
+import { CardMedia } from '@mui/material';
+import { TILE_HEIGHT, TILE_WIDTH } from '../../../../utils/constants.ts';
 
 interface TileProps {
-    tile: ATile;
+  tile: ATile;
 }
 
-const Tile: FC<TileProps> = ({tile}) => {
-    return <>
-        <Card className={styles.Tile} sx={{ width: 200 }}>
-            <div>{tile.title}</div>
-        </Card>
+const Tile: FC<TileProps> = ({ tile }) => {
+  return (
+    <>
+      <Card className={styles.Tile} sx={{ width: TILE_WIDTH }}>
+        <CardMedia
+          component="img"
+          height={TILE_HEIGHT}
+          image={tile.img}
+          alt={tile.title}
+        />
+      </Card>
     </>
+  );
 };
 
 export default Tile;
