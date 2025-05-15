@@ -3,11 +3,12 @@
 .Tile {
   margin: @margin-1;
   padding: @padding-05;
-  background-color: @tile-background-color;
+  background-color: @tile-background-color !important; // Override <Card> style
+  cursor: pointer;
 }
 
 @media (prefers-color-scheme: light) {
   .Tile {
-    background-color: @tile-background-color-light;
+    background-color: @tile-background-color-light;  // Override <Card> style
   }
 }

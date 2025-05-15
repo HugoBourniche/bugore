@@ -12,14 +12,16 @@ interface TileProps {
 const Tile: FC<TileProps> = ({ tile }) => {
   return (
     <>
-      <Card className={styles.Tile} sx={{ width: TILE_WIDTH }}>
-        <CardMedia
-          component="img"
-          height={TILE_HEIGHT}
-          image={tile.img}
-          alt={tile.title}
-        />
-      </Card>
+      <a href={tile.link} target="_blank">
+        <Card className={styles.Tile} sx={{ width: TILE_WIDTH }}>
+          <CardMedia
+            component="img"
+            height={TILE_HEIGHT}
+            image={tile.img}
+            alt={tile.title}
+          />
+        </Card>
+      </a>
     </>
   );
 };
