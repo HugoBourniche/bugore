@@ -7,6 +7,14 @@
       "link": "https://spacetrip.bugo.re",
       "img": "images/tile_thumbnail_spacetrip.png",
       "lastUpdate": "2019/12"
+    },
+    {
+      "title": "Breakout",
+      "state": "Finished",
+      "version": "1.0.0",
+      "link": "https://breakout.bugo.re",
+      "img": "images/tile_thumbnail_breakout.png",
+      "lastUpdate": "2019/12"
     }
   ],
   "videoTiles": [
