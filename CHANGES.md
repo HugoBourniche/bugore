@@ -1,7 +1,9 @@
+## [1.2.0]
+
 ## [1.1.0]
+- [CNT-01] Add breakout tile
 
 ## [1.0.0]
-
 - [FTR-03] Add cards to link to projects
 
 ## [0.2.0]
