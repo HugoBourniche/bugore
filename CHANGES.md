@@ -1,7 +1,12 @@
+## [1.3.0]
+
 ## [1.2.0]
+- [CNT-02] Add Step 10 in game tiles
 
 ## [1.1.0]
 - [CNT-01] Add breakout tile
+
+## [1.1.0]
 
 ## [1.0.0]
 - [FTR-03] Add cards to link to projects
