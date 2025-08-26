@@ -15,6 +15,14 @@
       "link": "https://breakout.bugo.re",
       "img": "images/tile_thumbnail_breakout.png",
       "lastUpdate": "2019/12"
+    },
+    {
+      "title": "Step 10 tool",
+      "state": "Finished",
+      "version": "1.0.0",
+      "link": "https://etape10.bugo.re",
+      "img": "images/tile_thumbnail_step10.png",
+      "lastUpdate": "2025/08"
     }
   ],
   "videoTiles": [
