@@ -50,5 +50,31 @@
       "img": "https://img.youtube.com/vi/Eh0GPQ7_1gA/hqdefault.jpg",
       "publicationDate": "2023/03/26"
     }
+  ],
+  "musicTiles": [
+    {
+      "title": "VibeRP DJ ZIA - Ambiance Disco à la fête de la musique",
+      "link": "https://www.youtube.com/watch?v=3f0Z2eHNDvw",
+      "img": "https://img.youtube.com/vi/3f0Z2eHNDvw/maxresdefault.jpg",
+      "publicationDate": "2026/07/09"
+    },
+    {
+      "title": "VibeRP DJ ZIA - Set de la soirée Techno à l'église",
+      "link": "https://www.youtube.com/watch?v=GPSegtGDhy4",
+      "img": "https://img.youtube.com/vi/GPSegtGDhy4/maxresdefault.jpg",
+      "publicationDate": "2026/06/25"
+    },
+    {
+      "title": "VibeRP DJ ZIA - Set pour une soirée chill à la plage",
+      "link": "https://www.youtube.com/watch?v=Dqq2Uapk4Xc  ",
+      "img": "https://img.youtube.com/vi/Dqq2Uapk4Xc/maxresdefault.jpg",
+      "publicationDate": "2026/06/12"
+    },
+    {
+      "title": "VibeRP DJ ZIA - Set pour La Panthere Run",
+      "link": "https://www.youtube.com/watch?v=2Ee3jYGiQUE",
+      "img": "https://img.youtube.com/vi/2Ee3jYGiQUE/maxresdefault.jpg",
+      "publicationDate": "2026/06/07"
+    }
   ]
 }

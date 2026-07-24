@@ -13,6 +13,9 @@ const template = (tiles: TilesJsonObject | null) => (
     {tiles && tiles.videoTiles && (
       <TilesContainer title={'Videos'} content={tiles.videoTiles} />
     )}
+    {tiles && tiles.musicTiles && (
+      <TilesContainer title={'DJ Sets'} content={tiles.musicTiles} />
+    )}
   </>
 );
 

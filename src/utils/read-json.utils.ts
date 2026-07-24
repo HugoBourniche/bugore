@@ -13,6 +13,7 @@ export class ReadJsonUtils {
     const tileObject = new TilesJsonObject();
     tileObject.gameTiles = this.convertGameTiles(jsonObject['gameTiles']);
     tileObject.videoTiles = this.convertVideoTiles(jsonObject['videoTiles']);
+    tileObject.musicTiles = this.convertVideoTiles(jsonObject['musicTiles']);
     return tileObject;
   }
 

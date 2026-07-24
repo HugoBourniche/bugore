@@ -8,6 +8,7 @@ export class TilesJsonObject {
 
   private _gameTiles: GameTile[];
   private _videoTiles: VideoTile[];
+  private _musicTiles: VideoTile[];
 
   // *****************************************************************************************************************
   // CONSTRUCTOR
@@ -16,6 +17,7 @@ export class TilesJsonObject {
   constructor() {
     this._gameTiles = [];
     this._videoTiles = [];
+    this._musicTiles = [];
   }
 
   // *****************************************************************************************************************
@@ -38,6 +40,14 @@ export class TilesJsonObject {
     this._videoTiles = value;
   }
 
+  get musicTiles(): VideoTile[] {
+    return this._musicTiles;
+  }
+
+  set musicTiles(value: VideoTile[]) {
+    this._musicTiles = value;
+  }
+
   // *****************************************************************************************************************
   // PUBLIC METHODS
   // *****************************************************************************************************************
@@ -48,5 +58,9 @@ export class TilesJsonObject {
 
   public addVideoTile(videoTile: VideoTile) {
     this._videoTiles.push(videoTile);
+  }
+
+  public addMusicTile(musicTile: VideoTile) {
+    this._musicTiles.push(musicTile);
   }
 }
