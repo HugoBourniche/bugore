@@ -1,4 +1,8 @@
+## [1.3.0]
+- [CNT-03] Add DJ Set section and tiles
+
 ## [1.2.0]
+- [CNT-02] Add phase 10 tile
 
 ## [1.1.0]
 - [CNT-01] Add breakout tile
