@@ -3,6 +3,7 @@
 
 ## [1.2.0]
 - [CNT-02] Add phase 10 tile
+- [IMP-04] Remove `_blank` from tiles
 
 ## [1.1.0]
 - [CNT-01] Add breakout tile
